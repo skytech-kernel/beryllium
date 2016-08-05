@@ -1346,4 +1346,10 @@ config INPUT_PRESS_NDT_M65
 	help
 	  Say Y here if you have a press ic ndt.
 
+config SWEEP2SLEEP
+        tristate "Sweep to put device to sleep"
+        default y
+        help
+          Say Y here to support sweep2sleep
+
 endif
